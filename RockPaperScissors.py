@@ -23,3 +23,24 @@ else:
 	return"Win"
 
 print("Starting the rock Paper Scissors game!")
+print("Print a hand")
+
+player_name="Lilly"
+player_hand=0
+
+if validate(player_hand):
+	computer_hand=1
+
+print_hand(player_hand,player_name)
+print_hand(computer_hand,"computer")
+
+#Assign the return value of judge to the result variable
+
+result=judge(player_hand,computer_hand)
+
+#Print the result variable
+
+print("result:"+result)
+
+else:
+	print("Please enter a valid number")
